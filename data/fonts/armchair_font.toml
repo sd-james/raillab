@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Armchair"
+
+# Optional Google font URL
+#google_fonts = "family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700"
+
+# Font families
+heading_font = "HoeflerText-Regular, Cochin, Georgia, serif"
+body_font = "Georgia, Roboto"
+nav_font = "Georgia, Roboto"
+mono_font = "Consolas"

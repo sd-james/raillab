@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day: armchair
   theme_night:
-  font: native
+  font: armchair_font
   font_size: L
 
 # SEO
@@ -17,11 +17,11 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    org_name: 'RAIL Lab'
+    description: 'Artificial intelligence and robotics research lab based in Johannesburg, South Africa'
+    twitter: 'raillabwits'
   analytics:
-    google_analytics: ''
+    google_analytics: 'https://www.googletagmanager.com/gtag/js?id=UA-121230624-2'
     baidu_tongji: ''
   verification:
     google: ''
@@ -36,8 +36,8 @@ header:
     show_logo: true
     show_language: false
     show_day_night: true
-    show_search: true
-    highlight_active_link: false
+    show_search: false
+    highlight_active_link: true
 
 # Site footer
 
@@ -45,7 +45,7 @@ footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -53,20 +53,22 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
+  date_format: '2 Jan, 2006'
+  time_format: '15:04'
+  address_format: en-gb
 
 # Site features
 
 features:
   syntax_highlighter:
-    enable: false
+    enable: true
     extra_languages:
       - r
       - latex
   math:
-    enable: false
+    enable: true
+  diagram:
+    enable: true
   privacy_pack:
     enable: false
   repository:
