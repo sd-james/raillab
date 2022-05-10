@@ -1,17 +1,75 @@
 ---
+# Display name
 title: Steve James
-role: Reinforcement learning and planning
-avatar_filename: https://raillab.org/content/steve.png
-bio: Lecturer at the University of the Witwatersrand
-interests: []
-social: []
-organizations:
-  - name: University of the Witwatersrand
-    url: https://www.wits.ac.za/csam/
-superuser: true
-user_groups:
-  - Faculty
----
-I am a lecturer at the University of the Witwatersrand in Johannesburg, South Africa, where I've spent my entire academic career. My interest in AI stems from writing my own chess engine - it should therefore come as no surprise that I am very interested in games, be they board, video or logic. I am also a keen programmer, having worked as a Java and Android developer, and have developed web apps and sites (such as this one).
 
-Away from this, I am [a](https://youtu.be/VNl-cdY0lko?t=15m10s) [massive](https://youtu.be/8Thj7yqPSOE?t=2m58s) [sports](https://youtu.be/8qc_qS_7NXw) [geek](https://youtu.be/U28-AOrmT6c?t=10m30s), [metalcore](https://youtu.be/gWnazgDoUHk) [fan](https://youtu.be/08SWNL0e5Z4) and professional sleeper.
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position
+role: Lecturer
+
+# Organizations/Affiliations
+organizations:
+- name: University of the Witwatersrand
+  url: 'https://www.wits.ac.za/csam/'
+
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include reinforcement learning and planning.
+
+interests:
+- Artificial Intelligence
+- Reinforcement Learning
+- Machine Learning
+
+education:
+  courses:
+    - course: PhD in Computer Science
+      institution: University of the Witwatersrand
+      year: 2021
+    - course: MSc in Computer Science
+      institution: University of the Witwatersrand
+      year: 2016
+    - course: BSC (Hons) in Computer Science
+      institution: University of the Witwatersrand
+      year: 2013
+    - course: BSC in Computer Science
+      institution: University of the Witwatersrand
+      year: 2012
+
+# Social/Academic Networking
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:steven.james@wits.ac.za'
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: globe
+  icon_pack: fas
+  link: https://sdjames.me
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+- icon: cv
+  icon_pack: ai
+  link: https://sdjames.me/assets/content/james_cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ''
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+- Faculty
+---
+
+I am a lecturer at the University of the Witwatersrand in Johannesburg, South Africa, where I've spent my entire academic career. 
+
+My interest in AI stems from writing my own chess engine - it should therefore come as no surprise that I am very interested in games, be they board, video or logic. 
+
+My main research interests revolve around developing agent capable of autonomously learning their own abstract representations that can be reused in new domains.  
