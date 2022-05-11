@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: RAIL Lab | Robotics, Autonomous Intelligence and Learning # Website name
+title: RAIL Lab # Website name
 baseURL: 'https://www.raillab.org/' # Website URL
 
 ############################
