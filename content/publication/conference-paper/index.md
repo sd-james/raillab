@@ -12,10 +12,9 @@ url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
 publication_types:
   - "1"
 authors:
-  - admin
+  - Steven James
   - Robert Ford
-author_notes:
-  - Somenotes
+author_notes: []
 publication: In *Source Themes Conference*
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
   tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
