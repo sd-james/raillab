@@ -19,9 +19,12 @@ main:
   - name: People
     url: people
     weight: 50
+  - name: Join the Lab
+    url: join
+    weight: 60
   - name: Contact
     url: contact
-    weight: 60
+    weight: 70
 #  - name: Events
 #    url: event
 #    weight: 40
