@@ -18,6 +18,8 @@ design:
 ---
 
 <br>
-The 
 
-The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+The RAIL lab was founded in 2014 and has produced state-of-the-art research into artificially intelligent systems ever since.
+We aim to act as a centre of excellence and nexus of activities around AI in Africa, and to benefit society through the application of our work.
+
+
