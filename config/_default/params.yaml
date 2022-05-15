@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    # notice: 'Steve James | {year}'
     license:
       enable: false
       allow_derivatives: false

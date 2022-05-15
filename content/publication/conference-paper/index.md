@@ -10,7 +10,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 slides: null
 url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
 publication_types:
-  - "1"
+  - "9"
 authors:
   - Steven James
   - Robert Ford
