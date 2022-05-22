@@ -1,5 +1,6 @@
 ---
 title: Richard Klein
+weight: 3
 role: Senior Lecturer
 bio: I am a Senior Lecturer in the School of Computer Science and Applied
   Mathematics at the University of the Witwatersrand in Johannesburg, and a co-PI of the PRIME lab. 
