@@ -87,6 +87,9 @@ features:
       url: ''
   search:
     provider: wowchemy
+    wowchemy:
+      min_length: 1
+      threshold: 0.3
     algolia:
       app_id: ''
       api_key: ''

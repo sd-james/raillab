@@ -28,9 +28,10 @@ columns: '2'
 #   2 = Compact
 #   3 = Card
 #   5 = Showcase
-view: 2
+view: 5
 
 # For Showcase view, flip alternate rows?
 flip_alt_rows: false
 ---
 
+<br>

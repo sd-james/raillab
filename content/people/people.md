@@ -7,7 +7,7 @@ widget: people
 headless: true
 
 # Order that this section appears on the page.
-weight: 68
+weight: 10
 
 title: Group Members
 subtitle:
@@ -24,5 +24,7 @@ content:
 design:
   show_interests: true
   show_role: true
-  show_social: true
+  show_social: false
+
 ---
+<br>

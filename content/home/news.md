@@ -1,30 +1,25 @@
 ---
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: portfolio
 headless: true
 weight: 20
-title: Latest Work
+title: Latest Research
 subtitle:
 
 content:
-  count: 3
+  count: 6
   filters:
+    folders:
+      - post
+      - publication
     author: ''
     category: ''
     exclude_featured: false
-    publication_type: '1'
-    tag: ''
-  filters:
-    author: ''
-    category: ''
-    exclude_featured: false
-    publication_type: ''
     tag: ''
   offset: 0
   order: desc
-  page_type: publication
 design:
-  view: compact
+  view: masonry
   columns: '1'
 ---
 

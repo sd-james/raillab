@@ -41,6 +41,7 @@ email: ""
 superuser: false
 user_groups:
   - Faculty 
+  - Alumni
 highlight_name: true
 ---
 

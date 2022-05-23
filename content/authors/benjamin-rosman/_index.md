@@ -1,7 +1,7 @@
 ---
 title: Benjamin Rosman
 weight: 1
-role: RAIL Lab Director | Associate Professor
+role: RAIL Lab Director
 avatar_filename: https://raillab.org/content/me-16x9.jpg
 bio: I am an Associate Professor in the School of Computer Science and Applied
   Mathematics at the University of the Witwatersrand in Johannesburg. I work in
