@@ -3,7 +3,7 @@
 
 title: "Composition"
 #summary: "An example of using the in-built project page"
-authors: []
+authors: null
 # tags: [Deep Learning]
 categories: []
 date: 2022-05-10T23:09:11+02:00

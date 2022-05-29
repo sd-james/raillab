@@ -25,6 +25,9 @@ main:
   - name: Contact
     url: contact
     weight: 70
+  - name: Login
+    url: admin/
+    weight: 80
 #  - name: Events
 #    url: event
 #    weight: 40
