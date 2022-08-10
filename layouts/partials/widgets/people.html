@@ -25,21 +25,30 @@
   {{ range $page.Params.content.user_groups }}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
+  {{ $currentGroup := .}}
+
   {{if $query}}
   <div class="col-md-12">
     <h2 class="mb-4">{{ . | markdownify }}</h2>
   </div>
   {{end}}
 
+<!--  TODO Not sorting properly-->
+
+  {{- if eq $currentGroup "Alumni" -}}
+  {{ $query:= sort $query ".Params.grad_year" "asc" }}
+  {{-  end -}}
+
   {{ range $query }}
+
+
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
   {{ $link := "" }}
   {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
   {{ $link = .RelPermalink }}
   {{ end }}
-
-  {{- if ne (index (.Params.user_groups) 0) "Alumni" -}}
+  {{- if ne $currentGroup "Alumni" -}}
   <div class="col-12 col-sm-auto people-person">
     {{ $src := "" }}
     {{ if site.Params.features.avatar.gravatar }}
@@ -67,9 +76,14 @@
     <div class="portrait-title">
       {{ $link := .Params.external_link }}
       <h2 style="margin-bottom: 0ex; margin-top: 1pt;">{{with $link}}<a href="{{.}}">{{end}}{{ .Params.title }}{{if $link}}</a>{{end}}</h2>
-      {{ $organization := .Params.organization}}
-      {{- with .Params.role -}}<h3 style="margin-top: 8pt;">Now: {{ . | markdownify | emojify }}
-      {{- if $organization }} at {{$organization}}</h3> {{ end -}}{{- end -}}
+      {{ $thesis := .Params.thesis}}
+      {{ $dissertation := .Params.dissertation}}
+      {{ $year := .Params.grad_year}}
+      <p class="people-interests">
+        {{- if $thesis }} {{$thesis}}. <em>PhD Thesis</em>
+        {{- else if $dissertation }} {{$dissertation}}. <em>MSc Dissertation</em>   {{ end -}}
+        {{- if $year }}, {{$year}}. {{ end -}}
+      </p>
     </div>
   </div>
   {{-  end -}}

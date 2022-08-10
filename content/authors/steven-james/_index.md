@@ -31,18 +31,20 @@ education:
     - course: MSc in Computer Science
       institution: University of the Witwatersrand
       year: 2016
-    - course: BSC (Hons) in Computer Science
+    - course: BSc (Hons) in Computer Science
       institution: University of the Witwatersrand
       year: 2013
-    - course: BSC in Computer Science
+    - course: BSc in Computer Science
       institution: University of the Witwatersrand
       year: 2012
 email: ""
 superuser: false
 user_groups:
-  - Faculty 
   - Alumni
+  - Faculty 
 highlight_name: true
+grad_year: 2022
+
 ---
 
 I am a lecturer at the University of the Witwatersrand in Johannesburg, South Africa, where I've spent my entire academic career.
