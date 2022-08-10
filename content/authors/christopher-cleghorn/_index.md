@@ -1,5 +1,5 @@
 ---
-title: Christopher Cleghorn
+title: Christopher  Cleghorn
 weight: 10
 role: Senior Applied Scientist
 interests:
@@ -15,5 +15,5 @@ organizations:
 superuser: false
 user_groups:
   - Research Associates 
-highlight_name: true
+highlight_name: false
 ---
