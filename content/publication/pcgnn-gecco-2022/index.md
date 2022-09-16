@@ -22,7 +22,7 @@ publication: In *Proceedings of the Genetic and Evolutionary Computation Confere
 #url_dataset: "#"
 #url_project: ""
 #url_source: "#"
-#url_video: "#"
+url_video: "https://www.youtube.com/watch?v=ZbMgSFatT8c"
 title: Procedural Content Generation using Neuroevolution and Novelty Search for Diverse Video Game Levels
 featured: true
 tags:
@@ -37,7 +37,6 @@ image:
   focal_point: ''
   preview_only: false
   publishDate: 2022-08-10T00:00:00Z
-doi: "10.1145/3512290.3528701"
 url_code: "https://github.com/michael-Beukman/PCGNN"
 
 ---
