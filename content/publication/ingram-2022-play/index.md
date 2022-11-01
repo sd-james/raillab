@@ -1,38 +1,45 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Play-style Identification through Deep Unsupervised Clustering of Trajectories
-subtitle: ''
-summary: ''
+abstract: In any game, play-style is a concept that describes the technique and strategy employed by a player to achieve
+  a goal. Being able to identify the play-style of a player is desirable as it can enlighten players on which approaches 
+  work better or worse in different scenarios, as well as inform developers of the value of design decisions. In this 
+  paper, we propose a novel approach to play-style identification based on an unsupervised LSTM-autoencoder clustering 
+  approach for multi-dimensional trajectory-based data of variable length. We evaluate our approach on two domains and
+  show that not only is our model capable of identifying these play-styles from entire trajectories but it is also 
+  capable of this during gameplay from partial trajectories. Additionally, it is demonstrated through state frequency
+  analysis that the properties of each of the play-styles can be identified and compared. Through these processes, we 
+  can extract useful information which describes the different behaviours or play-styles present within a domain useful 
+  to both players and developers.
+slides: null
+publication_types:
+  - "1"
 authors:
-- Branden Ingram
-- Benjamin Rosman
-- Clint van Alten
-- Richard Klein
-tags: []
-categories: []
-date: '2022-01-01'
-lastmod: 2022-09-17T14:25:07+02:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+  - Branden Ingram
+  - Benjamin Rosman
+  - Clint van Alten
+  - Richard Klein
+author_notes: []
+publication: In *Proceedings of the IEEE Conference on Games*
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_video: "#"
+title: Play-style Identification through Deep Unsupervised Clustering of Trajectories
+featured: true
+tags:
+  - Player Modelling
+  - Games
+date: 2022-08-10T00:00:00Z
+#url_slides: ""
+projects:
+- ai-in-games
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
+  publishDate: 2022-08-10T00:00:00Z
+doi: ""
+#url_poster: "#"
+#url_code: "#"
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:25:05.967426Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2022 IEEE Conference on Games (CoG). IEEE*'
 ---
+
