@@ -31,6 +31,7 @@ featured: true
 tags:
   - Natural Language Processing
   - Machine Translation 
+  - Low-resource Languages
 
 image:
   focal_point: ''

@@ -24,7 +24,7 @@ tags:
   - Symbolic Representations
   - Reinforcement Learning
   - Classical Planning
-  - Multitask Transfer
+  - Transfer Learning
 
 projects:
   - symbols              

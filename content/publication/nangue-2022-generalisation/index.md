@@ -1,37 +1,60 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Generalisation in Lifelong Reinforcement Learning through Logical Composition
-subtitle: ''
-summary: ''
+title:  "Generalisation in Lifelong Reinforcement Learning through Logical Composition"
 authors:
-- Geraud Nangue Tasse
-- Steven James
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2022-01-01'
-lastmod: 2022-09-17T12:34:57+02:00
-featured: false
-draft: false
+  - Geraud Nangue Tasse
+  - Steven James
+  - Benjamin Rosman
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+author_notes: []
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T10:34:56.966731Z'
+publication: "In *Proceedings of the Tenth International Conference on Learning Representations*"
+
+date: 2022-04-25T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
 publication_types:
-- '1'
-abstract: ''
-publication: '*International Conference on Learning Representations*'
+- "1"
+
+abstract: "We leverage logical composition in reinforcement learning to create a framework that enables an agent to 
+  autonomously determine whether a new task can be immediately solved using its existing abilities, or whether a 
+  task-specific skill should be learned. In the latter case, the proposed algorithm also enables the agent to learn the 
+  new task faster by generating an estimate of the optimal policy. Importantly, we provide two main theoretical results: 
+  we bound the performance of the transferred policy on a new task, and we give bounds on the necessary and sufficient 
+  number of tasks that need to be learned throughout an agent's lifetime to generalise over a distribution. We verify our
+  approach in a series of experiments, where we perform transfer learning both after learning a set of base tasks, and after
+  learning an arbitrary set of tasks. We also demonstrate that, as a side effect of our transfer learning approach, an agent 
+  can produce an interpretable Boolean expression of its understanding of the current task. Finally, we demonstrate our 
+  approach in the full lifelong setting where an agent receives tasks from an unknown distribution. Starting from scratch, 
+  an agent is able to quickly generalise over the task distribution after learning only a few tasks, which are sub-logarithmic 
+  in the size of the task space."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Lifelong Learning
+  - Transfer Learning
+
+projects:
+- composition
+
+image:
+focal_point: ''
+preview_only: false
+
+slides: null
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_video: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
