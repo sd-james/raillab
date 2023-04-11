@@ -1,5 +1,5 @@
 ---
-title:  "Who should I trust? Cautiously learning with unreliable experts"
+title:  "Who Should I Trust? Cautiously Learning with Unreliable Experts"
 authors:
   - Tamlin Love
   - Ritesh Ajoodha

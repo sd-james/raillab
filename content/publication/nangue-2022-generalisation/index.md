@@ -37,7 +37,7 @@ tags:
   - Transfer Learning
 
 projects:
-- composition
+  - composition
 
 image:
 focal_point: ''

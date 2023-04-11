@@ -1,38 +1,61 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Using Score-based Structure Learning to Computationally Learn Direct Influence
-  between Hierarchical Dynamic Bayesian Networks
-subtitle: ''
-summary: ''
+title:  "Using Score-based Structure Learning to Computationally Learn Direct Influence between Hierarchical Dynamic Bayesian Networks"
 authors:
-- Ritesh Ajoodha
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2021-01-01'
-lastmod: 2022-09-17T14:24:49+02:00
-featured: false
-draft: false
+  - Ritesh Ajoodha
+  - Benjamin Rosman
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*IEEE Asia-Pacific Conference on Computer Science and Data Engineering*"
+
+date: 2021-12-08T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: Numerous fields of science have investigated stochastic
+  processes which are partially observable. However, the discovery
+  and analysis of the interaction between, and the influence
+  upon each other, of several of these processes, have not
+  been probed extensively. This paper uses probabilistic structure
+  learning in an attempt to learn influence relationships between
+  stochastic processes that are partially observed. These processes
+  are represented by hierarchical dynamic Bayesian networks (HDBNs).
+  To track the direct influence between the these processes,
+  we provide an algorithm that extends the BIC structure score
+  as well as the cumbersome (greedy hill-climbing) local search
+  procedure. Our method leverages the temporal nature of the
+  HDBN through the use of assembles thereby surpassing the
+  standard approach that treats each process as a single variable.
+  The derived BIC-score for HDBN families is clearly shown to be
+  theoretically decomposable and empirically consistent.
+
+featured: true
+tags:
+  - Probabilistic Graphical Models
+  - Structure Learning
+  - Hidden Markov Models
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:24:47.393084Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2021 IEEE Asia-Pacific Conference on Computer Science and Data Engineering
-  (CSDE)*'
+slides: null
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_video: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---

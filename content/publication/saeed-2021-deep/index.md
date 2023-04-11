@@ -1,39 +1,48 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
+title:  "Deep Reinforcement Learning for Robotic Hand Manipulation"
 
-title: Deep reinforcement learning for robotic hand manipulation
-subtitle: ''
-summary: ''
 authors:
-- Muhammed Saeed
-- Mohammed Nagdi
-- Benjamin Rosman
-- Hiba HSM Ali
-tags: []
-categories: []
-date: '2021-01-01'
-lastmod: 2022-09-17T14:24:33+02:00
-featured: false
-draft: false
+  - Muhammed Saeed
+  - Mohammed Nagdi
+  - Benjamin Rosman
+  - Hiba H.S.M. Ali
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+author_notes: []
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:24:32.055663Z'
+publication: "*International Conference on Computer, Control, Electrical, and Electronics Engineering*"
+
+date: 2021-02-26T00:00:00Z
+publishDate: 2021-02-26T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
 publication_types:
-- '1'
-abstract: ''
-publication: '*2020 International Conference on Computer, Control, Electrical, and
-  Electronics Engineering (ICCCEEE)*'
+- "1"
+
+abstract: Researchers have made a lot of progress in combining the advances in Deep Learning and the generalization and
+  applicability of Reinforcement learning to the sequential decision-making process and introduce Deep Reinforcement
+  Learning, which allows using Reinforcement Learning in high dimensional input space environments. Deep Reinforcement
+  Learning achieved notable results in Atari-Games, continuous control tasks such as Robotics. In this project we benchmark
+  the performance of three different deep reinforcement Learning techniques Deep Deterministic Policy Gradient "DDPG" [1],
+  Deep Deterministic Policy Gradient with Hindsight Experience Replay "DDPG + HER" [2] and state-of-art policy gradient method
+  Proximal Policy optimization "PPO" [3], on multi-goal continuous control environments Fetch task and HandManipulate tasks, we
+  benchmarked the three algorithms on six different environments using sparse and dense reward settings. Deep Deterministic
+  Policy Gradient with Hindsight Experience Replay [2] achieves the best success-rate overall the environments when applied
+  with sparse rewards, while both Proximal Policy Optimization [3] and Deep Deterministic Policy Gradient [1] were able to
+  converge only on FetchReach environment.
+
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Robot Learning
+
+
+image:
+focal_point: ''
+preview_only: false
+
+slides: null
+url_pdf: "https://ieeexplore.ieee.org/abstract/document/9429619"
+
 ---
