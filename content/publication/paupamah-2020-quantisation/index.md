@@ -1,37 +1,55 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Quantisation and Pruning for Neural Network Compression and Regularisation
-subtitle: ''
-summary: ''
+title:  "Quantisation and Pruning for Neural Network Compression and Regularisation"
 authors:
-- Kimessha Paupamah
-- Steven James
-- Richard Klein
-tags: []
-categories: []
-date: '2020-01-01'
-lastmod: 2022-09-17T12:34:54+02:00
-featured: false
-draft: false
+  - Kimessha Paupamah
+  - Steven James
+  - Richard Klein
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+author_notes: []
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T10:34:54.197572Z'
+publication: "*International SAUPEC/RobMech/PRASA Conference*"
+
+date: 2020-01-29T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
 publication_types:
-- '1'
-abstract: ''
-publication: '*2020 International SAUPEC/RobMech/PRASA Conference*'
+- "1"
+
+abstract: "Deep neural networks are typically too computationally
+  expensive to run in real-time on consumer-grade hardware
+  and low-powered devices. In this paper, we investigate reducing
+  the computational and memory requirements of neural networks
+  through network pruning and quantisation. We examine their efficacy
+  on large networks like AlexNet compared to recent compact
+  architectures: ShuffleNet and MobileNet. Our results show that
+  pruning and quantisation compresses these networks to less than
+  half their original size and improves their efficiency, particularly
+  on MobileNet with a 7x speedup. We also demonstrate that
+  pruning, in addition to reducing the number of parameters in a
+  network, can aid in the correction of overfitting."
+
+featured: true
+tags:
+  - Deep Learning
+  - Neural Networks
+  - Pruning
+  - Compression
+
+image:
+focal_point: ''
+preview_only: false
+
+slides: null
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_video: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
 ---

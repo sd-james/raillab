@@ -1,38 +1,57 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Inter-and intra-domain knowledge transfer for related tasks in deep character
-  recognition
-subtitle: ''
-summary: ''
+title:  "Inter-and Intra-domain Knowledge Transfer for Related Tasks in Deep Character Recognition"
 authors:
-- Nishai Kooverjee
-- Steven James
-- Terence Van Zyl
-tags: []
-categories: []
-date: '2020-01-01'
-lastmod: 2022-09-17T12:34:53+02:00
-featured: false
-draft: false
+  - Nishai Kooverjee
+  - Steven James
+  - Terence Van Zyl
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+author_notes: []
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T10:34:53.263023Z'
+publication: "*International SAUPEC/RobMech/PRASA Conference*"
+
+date: 2020-01-29T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
 publication_types:
-- '1'
-abstract: ''
-publication: '*2020 International SAUPEC/RobMech/PRASA Conference*'
+- "1"
+
+abstract: "Pre-training a deep neural network on the ImageNet
+  dataset is a common practice for training deep learning models,
+  and generally yields improved performance and faster training
+  times. The technique of pre-training on one task and then
+  retraining on a new one is called transfer learning. In this paper
+  we analyse the effectiveness of using deep transfer learning for
+  character recognition tasks.We perform three sets of experiments
+  with varying levels of similarity between source and target tasks
+  to investigate the behaviour of different types of knowledge
+  transfer. We transfer both parameters and features and analyse
+  their behaviour. Our results demonstrate that no significant
+  advantage is gained by using a transfer learning approach
+  over a traditional machine learning approach for our character
+  recognition tasks. This suggests that using transfer learning does
+  not necessarily presuppose a better performing model in all cases."
+
+featured: true
+tags:
+  - Deep Learning
+  - Transfer Learning
+
+image:
+focal_point: ''
+preview_only: false
+
+slides: null
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_video: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
 ---
+
