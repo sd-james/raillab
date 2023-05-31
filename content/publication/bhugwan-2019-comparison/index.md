@@ -1,40 +1,57 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
+title:  "A Comparison Between Fully Connected and Deconvolutional Layers for Road Segmentation from Satellite Imagery"
 
-title: A comparison between fully connected and deconvolutional layers for road segmentation
-  from satellite imagery
-subtitle: ''
-summary: ''
 authors:
-- Dhruv Bhugwan
-- Pravesh Ranchod
-- Richard Klein
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2019-01-01'
-lastmod: 2022-09-17T14:23:44+02:00
-featured: false
-draft: false
+  - Dhruv Bhugwan
+  - Pravesh Ranchod
+  - Richard Klein
+  - Benjamin Rosman
+  
+author_notes: []
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+publication: "*SAUPEC/ROBMECH/PRASA International Conference*"
+
+date: 2019-01-28T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "Semantic segmentation using fully convolutional networks
+  has quickly become a popular solution as they provide very
+  accurate per pixel classification. However, the implementation
+  of deconvolutional layers and their mechanics differ greatly to
+  those of patch based segmentation using convolutional neural
+  networks. Both techniques have been used for road segmentation
+  from satellite imagery but never compared. Thus we investigate
+  the difference between fully connected and deconvolutional layers
+  and provide an interpretation as to the correlation and differences
+  between each methodology for road segmentation from satellite
+  imagery."
+
+featured: true
+tags:
+  - Semantic Segmentation
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:23:42.770815Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2019 Southern African Universities Power Engineering Conference/Robotics
-  and Mechatronics/Pattern Recognition Association of South Africa (SAUPEC/RobMech/PRASA)*'
+slides: null
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+

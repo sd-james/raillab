@@ -1,38 +1,65 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Composing value functions in reinforcement learning
-subtitle: ''
-summary: ''
+title:  "Composing Value Functions in Reinforcement Learning"
 authors:
-- Benjamin Van Niekerk
-- Steven James
-- Adam Earle
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2019-01-01'
-lastmod: 2022-09-17T12:34:52+02:00
-featured: false
-draft: false
+  - Benjamin Van Niekerk
+  - Steven James
+  - Adam Earle
+  - Benjamin Rosman
+  
+author_notes: [Equal contribution, Equal contribution]
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+publication: "*International Conference on Machine Learning*"
+
+date: 2019-06-10T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "An important property for lifelong-learning
+  agents is the ability to combine existing skills
+  to solve new unseen tasks. In general, however,
+  it is unclear how to compose existing skills in a
+  principled manner. Under the assumption of deterministic
+  dynamics, we prove that optimal value
+  function composition can be achieved in entropy-regularised
+  reinforcement learning (RL), and extend
+  this result to the standard RL setting. Composition
+  is demonstrated in a high-dimensional
+  video game, where an agent with an existing library
+  of skills is immediately able to solve new
+  tasks without the need for further learning."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Composition
+  - Entropy-regularised Reinforcement Learning
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T10:34:52.305377Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*International conference on machine learning*'
+projects:
+  - composition
+
+
+slides: null
+
+links:
+  - name: Supplementary Material
+    url: van-2019-composing-supp.pdf
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---

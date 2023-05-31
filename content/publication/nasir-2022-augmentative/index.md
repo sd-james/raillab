@@ -17,7 +17,7 @@ publishDate: 2022-10-05T00:00:00Z
 publication_types:
   - "9"
 
-abstract: In this work, we tackle the problem of openended
+abstract: In this work, we tackle the problem of open-ended
   learning by introducing a method that simultaneously
   evolves agents and increasingly challenging environments.
   Unlike previous open-ended approaches that
