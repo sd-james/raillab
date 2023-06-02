@@ -1,39 +1,64 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Real-time motion planning in changing environments using topology-based encoding
-  of past knowledge
-subtitle: ''
-summary: ''
+title:  "Real-time Motion Planning in Changing Environments Using Topology-based Encoding of Past Knowledge"
 authors:
-- Richard Fisher
-- Benjamin Rosman
-- Vladimir Ivan
-tags: []
-categories: []
-date: '2018-01-01'
-lastmod: 2022-09-17T14:23:30+02:00
-featured: false
-draft: false
+  - Richard Fisher
+  - Benjamin Rosman
+  - Vladimir Ivan
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*IEEE/RSJ International Conference on Intelligent Robots and Systems*"
+
+date: 2018-10-01T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "Trajectory planning and replanning in complex
+  environments often reuses very little information from the previous
+  solutions. This is particularly evident when the motion is
+  repeated multiple times with only a limited amount of variation
+  between each run. To address this issue, we propose the DRM-connect
+  algorithm, a combination of dynamic reachability maps
+  (DRM) with lazy collision checking and a fallback strategy
+  based on the RRT-connect algorithm which is used to repair
+  the roadmap through further exploration. This fallback allows
+  us to use much sparser roadmaps. Furthermore, we investigate
+  using an approximate Reeb graph to capture the topology-persistent
+  features of the past solutions of the problem utilising
+  this sparsity. We evaluate DRM-connect with a Reeb graph on
+  reaching tasks, and we compare it to state-of-the-art methods.
+  We show that the proposed method outperforms both RRT-connect
+  and BKPIECE algorithms in the number of collision
+  checks required and we show that our method has the potential
+  to scale to systems with higher number degrees of freedom."
+
+featured: true
+tags:
+  - Robotics
+  - Motion Planning
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:23:28.192432Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2018 IEEE/RSJ International Conference on Intelligent Robots and Systems
-  (IROS)*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+

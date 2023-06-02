@@ -1,37 +1,69 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Accelerating model learning with inter-robot knowledge transfer
-subtitle: ''
-summary: ''
+title:  "Accelerating Model Learning with Inter-robot Knowledge Transfer"
 authors:
-- Ndivhuwo Makondo
-- Benjamin Rosman
-- Osamu Hasegawa
-tags: []
-categories: []
-date: '2018-01-01'
-lastmod: 2022-09-17T14:23:25+02:00
-featured: false
-draft: false
+  - Ndivhuwo Makondo
+  - Benjamin Rosman
+  - Osamu Hasegawa
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*IEEE International Conference on Robotics and Automation*"
+
+date: 2018-05-21T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "Online learning of a robot’s inverse dynamics
+  model for trajectory tracking necessitates an interaction between
+  the robot and its environment to collect training data.
+  This is challenging for physical robots in the real world,
+  especially for humanoids and manipulators due to their large
+  and high dimensional state and action spaces, as a large amount
+  of data must be collected over time. This can put the robot
+  in danger when learning tabula rasa and can also be a time-intensive
+  process especially in a multi-robot setting, where
+  each robot is learning its model from scratch. We propose
+  accelerating learning of the inverse dynamics model for trajectory
+  tracking tasks in this multi-robot setting using knowledge
+  transfer, where robots share and re-use data collected by pre-existing
+  robots, in order to speed up learning for new robots.
+  We propose a scheme for collecting a sample of correspondences
+  from the robots for training transfer models, and demonstrate,
+  in simulations, the benefit of knowledge transfer in accelerating
+  online learning of the inverse dynamics model between several
+  robots, including between a low-cost Interbotix PhantomX
+  Pincher arm, and a more expensive and relatively heavier Kuka
+  youBot arm. We show that knowledge transfer can save up to
+  63% of training time of the youBot arm compared to learning
+  from scratch, and about 58% for the lighter Pincher arm."
+
+featured: true
+tags:
+  - Robotics
+  - Transfer Learning
+  - Robot Kinematics
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:23:24.120679Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2018 IEEE International Conference on Robotics and Automation (ICRA)*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---

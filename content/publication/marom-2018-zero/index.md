@@ -1,37 +1,58 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Zero-shot transfer with deictic object-oriented representation in reinforcement
-  learning
-subtitle: ''
-summary: ''
+title:  "Zero-Shot Transfer with Deictic Object-Oriented Representation in Reinforcement Learning"
 authors:
-- Ofir Marom
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2018-01-01'
-lastmod: 2022-09-17T14:23:36+02:00
-featured: false
-draft: false
+  - Ofir Marom
+  - Benjamin Rosman
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*Advances in Neural Information Processing Systems*"
+
+date: 2018-12-03T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "Object-oriented representations in reinforcement learning have shown promise
+  in transfer learning, with previous research introducing a propositional object-oriented
+  framework that has provably efficient learning bounds with respect to
+  sample complexity. However, this framework has limitations in terms of the classes
+  of tasks it can efficiently learn. In this paper we introduce a novel deictic object-oriented
+  framework that has provably efficient learning bounds and can solve a
+  broader range of tasks. Additionally, we show that this framework is capable
+  of zero-shot transfer of transition dynamics across tasks and demonstrate this
+  empirically for the Taxi and Sokoban domains."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Transfer Learning
+  - Object-oriented Reinforcement Learning
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:23:34.743049Z'
-publication_types:
-- '2'
-abstract: ''
-publication: '*Advances in Neural Information Processing Systems*'
+slides: null
+
+links:
+  - name: Supplementary Material
+    url: marom-2018-zero-supp.pdf
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+

@@ -1,36 +1,66 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Belief reward shaping in reinforcement learning
-subtitle: ''
-summary: ''
+title:  "Belief Reward Shaping in Reinforcement Learning"
 authors:
-- Ofir Marom
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2018-01-01'
-lastmod: 2022-09-17T14:23:19+02:00
-featured: false
-draft: false
+  - Ofir Marom
+  - Benjamin Rosman
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*Proceedings of the AAAI Conference on Artificial Intelligence*"
+
+date: 2018-02-02T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "A key challenge in many reinforcement learning problems is
+  delayed rewards, which can significantly slow down learning.
+  Although reward shaping has previously been introduced to
+  accelerate learning by bootstrapping an agent with additional
+  information, this can lead to problems with convergence. We
+  present a novel Bayesian reward shaping framework that augments
+  the reward distribution with prior beliefs that decay
+  with experience. Formally, we prove that under suitable conditions
+  a Markov decision process augmented with our framework
+  is consistent with the optimal policy of the original
+  MDP when using the Q-learning algorithm. However, in general
+  our method integrates seamlessly with any reinforcement
+  learning algorithm that learns a value or action-value function
+  through experience. Experiments are run on a gridworld and
+  a more complex backgammon domain that show that we can
+  learn tasks significantly faster when we specify intuitive priors
+  on the reward distribution."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Reward Shaping
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:23:18.361820Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*Proceedings of the AAAI Conference on Artificial Intelligence*'
+slides: null
+
+links:
+  - name: Supplementary Material
+    url: marom-2018-belief-supp.pdf
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+
+

@@ -39,6 +39,7 @@ abstract: "This paper investigates the improvement of learning
 
 featured: true
 tags:
+  - Robotics
   - Transfer Learning
   - Robot Kinematics
 
