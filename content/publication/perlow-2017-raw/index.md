@@ -1,39 +1,61 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Raw material selection for object construction
-subtitle: ''
-summary: ''
+title:  "Raw Material Selection for Object Construction"
 authors:
-- Jason Perlow
-- Benjamin Rosman
-- Bradley Hayes
-- Pravesh Ranchod
-tags: []
-categories: []
-date: '2017-01-01'
-lastmod: 2022-09-17T14:23:16+02:00
-featured: false
-draft: false
+  - Jason Perlow
+  - Benjamin Rosman
+  - Bradley Hayes
+  - Pravesh Ranchod
+  
+author_notes: []
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+publication: "*PRASA-RobMech International Conference*"
+
+date: 2017-11-29T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "An important step in the construction of novel
+  objects is the ability to recognise combinations of raw materials
+  which are likely to be useful. We aim to exploit the intuition
+  that the visual characteristics of candidate raw materials provide
+  useful cues to their potential combinations. Toward this end, we
+  present a Siamese neural network based model that is able to
+  recognise unseen raw materials present in objects given a list
+  of candidate material images. We demonstrate the utility and
+  efficacy of our model within two domains. The first being a proof-of-concept
+  within Minecraft where we predict the combinations
+  of objects that will result in a target object. The second, more
+  realistic domain, uses the ShapeNet 3D model dataset where
+  we attempt to recover the materials present in a model. We
+  empirically demonstrate that our model is able to learn from a
+  subset of object material pairs and generalise to unseen objects,
+  materials, texture packs. Under these conditions of high visual
+  variation, we show that our model outperforms chance and
+  baseline methods."
+
+featured: true
+tags:
+  - Similarity Learning
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:23:15.227947Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2017 Pattern Recognition Association of South Africa and Robotics and
-  Mechatronics (PRASA-RobMech)*'
+slides: null
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---

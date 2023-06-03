@@ -1,36 +1,59 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Fingerprint minutiae extraction using deep learning
-subtitle: ''
-summary: ''
+title:  "Fingerprint Minutiae Extraction using Deep Learning"
 authors:
-- Luke Nicholas Darlow
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2017-01-01'
-lastmod: 2022-09-17T14:23:13+02:00
-featured: false
-draft: false
+  - Luke Darlow
+  - Benjamin Rosman
+  
+author_notes: []
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+publication: "*International Joint Conference on Biometrics*"
+
+date: 2017-10-01T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "The high variability of fingerprint data (owing to, e.g.,
+  differences in quality, moisture conditions, and scanners)
+  makes the task of minutiae extraction challenging, particularly
+  when approached from a stance that relies on tunable
+  algorithmic components, such as image enhancement.
+  We pose minutiae extraction as a machine learning problem
+  and propose a deep neural network – MENet, for Minutiae
+  Extraction Network – to learn a data-driven representation
+  of minutiae points. By using the existing capabilities of
+  several minutiae extraction algorithms, we establish a voting
+  scheme to construct training data, and so train MENet
+  in an automated fashion on a large dataset for robustness
+  and portability, thus eliminating the need for tedious manual
+  data labelling. We present a post-processing procedure
+  that determines precise minutiae locations from the output
+  of MENet. We show that MENet performs favourably in
+  comparisons against existing minutiae extractors."
+
+featured: true
+tags:
+  - Fingerprinting
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:23:12.172125Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2017 IEEE International Joint Conference on Biometrics (IJCB)*'
+slides: null
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+

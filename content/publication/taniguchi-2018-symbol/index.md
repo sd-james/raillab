@@ -1,17 +1,17 @@
 ---
 title:  "Symbol Emergence in Cognitive Developmental Systems: A Survey"
 authors:
-- Tadahiro Taniguchi
-- Emre Ugur
-- Matej Hoffmann
-- Lorenzo Jamone
-- Takayuki Nagai
-- Benjamin Rosman
-- Toshihiko Matsuka
-- Naoto Iwahashi
-- Erhan Oztop
-- Justus Piater
-- Florentin Wörgötter
+  - Tadahiro Taniguchi
+  - Emre Ugur
+  - Matej Hoffmann
+  - Lorenzo Jamone
+  - Takayuki Nagai
+  - Benjamin Rosman
+  - Toshihiko Matsuka
+  - Naoto Iwahashi
+  - Erhan Oztop
+  - Justus Piater
+  - Florentin Wörgötter
   
 author_notes: []
 
