@@ -1,39 +1,66 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Trajectory learning from human demonstrations via manifold mapping
-subtitle: ''
-summary: ''
+title:  "Trajectory Learning from Human Demonstrations via Manifold Mapping"
 authors:
-- Michihisa Hiratsuka
-- Ndivhuwo Makondo
-- Benjamin Rosman
-- Osamu Hasegawa
-tags: []
-categories: []
-date: '2016-01-01'
-lastmod: 2022-09-17T14:23:00+02:00
-featured: false
-draft: false
+  - Michihisa Hiratsuka
+  - Ndivhuwo Makondo
+  - Benjamin Rosman
+  - Osamu Hasegawa
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*IEEE/RSJ International Conference on Intelligent Robots and Systems*"
+
+date: 2016-10-09T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "This work proposes a framework that enables
+  arbitrary robots with unknown kinematics models to imitate
+  human demonstrations to acquire a skill, and reproduce it
+  in real-time. The diversity of robots active in non-laboratory
+  environments is growing constantly, and to this end we present
+  an approach for users to be able to easily teach a skill to a robot
+  with any body configuration. Our proposed method requires
+  a motion trajectory obtained from human demonstrations via
+  a Kinect sensor, which is then projected onto a corresponding
+  human skeleton model. The kinematics mapping between
+  the robot and the human model is learned by employing
+  Local Procrustes Analysis, which enables the transfer of the
+  demonstrated trajectory from the human model to the robot.
+  Finally, the transferred trajectory is modeled using Dynamic
+  Movement Primitives, allowing it to be reproduced in real time.
+  Experiments in simulation on a 4 degree of freedom robot
+  show that our method is able to correctly imitate various skills
+  demonstrated by a human."
+
+featured: true
+tags:
+  - Robotics
+  - Transfer Learning
+  - Robot Kinematics
+  - Learning from Demonstration
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:58.486087Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2016 IEEE/RSJ International Conference on Intelligent Robots and Systems
-  (IROS)*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
