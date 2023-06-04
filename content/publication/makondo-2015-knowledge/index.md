@@ -1,37 +1,62 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Knowledge transfer for learning robot models via local procrustes analysis
-subtitle: ''
-summary: ''
+title:  "Knowledge Transfer for Learning Robot Models via Local Procrustes Analysis"
 authors:
-- Ndivhuwo Makondo
-- Benjamin Rosman
-- Osamu Hasegawa
-tags: []
-categories: []
-date: '2015-01-01'
-lastmod: 2022-09-17T14:22:47+02:00
-featured: false
-draft: false
+  - Ndivhuwo Makondo
+  - Benjamin Rosman
+  - Osamu Hasegawa
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*IEEE-RAS International Conference on Humanoid Robots*"
+
+date: 2015-11-03T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "Learning of robot kinematic and dynamic models
+  from data has attracted much interest recently as an alternative
+  to manually defined models. However, the amount of data
+  required to learn these models becomes large when the number
+  of degrees of freedom increases and collecting it can be a time-intensive
+  process. We employ transfer learning techniques in
+  order to speed up learning of robot models, by using additional
+  data obtained from other robots. We propose a method for
+  approximating non-linear mappings between manifolds, which
+  we call Local Procrustes Analysis (LPA), by adopting and
+  extending the linear Procrustes Analysis method. Experimental
+  results indicate that the proposed method offers an accurate
+  transfer of data and significantly improves learning of the
+  forward kinematics model. Furthermore, it allows learning
+  a global mapping between two robots that can be used to
+  successfully transfer trajectories."
+
+featured: true
+tags:
+  - Robotics
+  - Transfer Learning
+  - Robot Kinematics
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:46.670314Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids)*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---

@@ -1,40 +1,56 @@
-
-
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Autonomous prediction of performance-based standards for heavy vehicles
-subtitle: ''
-summary: ''
+title:  "Autonomous Prediction of Performance-based Standards for Heavy Vehicles"
 authors:
-- Robert Berman
-- Richardt Benade
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2015-01-01'
-lastmod: 2022-09-17T14:22:50+02:00
-featured: false
-draft: false
+  - Robert Berman
+  - Richardt Benade
+  - Benjamin Rosman
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*PRASA-RobMech International Conference*"
+
+date: 2015-11-25T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "In this paper we use content-based features to
+  perform automatic classification of music pieces into genres.
+  We categorise these features into four groups: features extracted
+  from the Fourier transform’s magnitude spectrum, features
+  designed to inform on tempo, pitch-related features, and
+  chordal features.   We perform a novel and thorough exploration of classification
+  performance for different feature representations, including the
+  mean and standard deviation of its distribution, by a histogram
+  of various bin sizes, and using mel-frequency cepstral coefficients.
+  Finally, the paper uses information gain ranking to present a
+  pruned feature vector used by six off-the-shelf classifiers. Logistic
+  regression achieves the best performance with an 81% accuracy
+  on 10 GTZAN genres."
+
+featured: true
+tags:
+  - Performance Prediction
+  - Transport
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:49.624309Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2015 Pattern Recognition Association of South Africa and Robotics and
-  Mechatronics International Conference (PRASA-RobMech)*'
+slides: null
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---

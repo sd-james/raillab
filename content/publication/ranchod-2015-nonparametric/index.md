@@ -1,39 +1,60 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Nonparametric bayesian reward segmentation for skill discovery using inverse
-  reinforcement learning
-subtitle: ''
-summary: ''
+title:  "Nonparametric Bayesian Reward Segmentation for Skill Discovery Using Inverse Reinforcement Learning"
 authors:
-- Pravesh Ranchod
-- Benjamin Rosman
-- George Konidaris
-tags: []
-categories: []
-date: '2015-01-01'
-lastmod: 2022-09-17T14:22:46+02:00
-featured: false
-draft: false
+  - Pravesh Ranchod
+  - Benjamin Rosman
+  - George Konidaris
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*IEEE/RSJ International Conference on Intelligent Robots and Systems*"
+
+date: 2015-09-28T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "We present a method for segmenting a set of
+  unstructured demonstration trajectories to discover reusable
+  skills using inverse reinforcement learning (IRL). Each skill is
+  characterised by a latent reward function which the demonstrator
+  is assumed to be optimizing. The skill boundaries and the
+  number of skills making up each demonstration are unknown.
+  We use a Bayesian nonparametric approach to propose skill
+  segmentations and maximum entropy inverse reinforcement
+  learning to infer reward functions from the segments. This
+  method produces a set of Markov Decision Processes (MDPs)
+  that best describe the input trajectories. We evaluate this
+  approach in a car driving domain and a simulated quadcopter
+  obstacle course, showing that it is able to recover demonstrated
+  skills more effectively than existing methods."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Inverse Reinforcement Learning
+  - Learning from Demonstration
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:45.214465Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2015 IEEE/RSJ International Conference on Intelligent Robots and Systems
-  (IROS)*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---

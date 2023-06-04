@@ -1,40 +1,47 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: 'G3DB: A database of successful and failed grasps with RGB-D images, point
-  clouds, mesh models and gripper parameters'
-subtitle: ''
-summary: ''
+title:  "G3DB: A Database of Successful and Failed Grasps with RGB-D Images, Point Clouds, Mesh Models and Gripper Parameters"
 authors:
-- Ashley Kleinhans
-- Benjamin S Rosman
-- Michael Michalik
-- B Tripp
-- Renaud Detry
-tags: []
-categories: []
-date: '2015-01-01'
-lastmod: 2022-09-17T14:22:58+02:00
-featured: false
-draft: false
+  - Ashley Kleinhans
+  - Benjamin Rosman
+  - Michael Michalik
+  - Bryan Tripp
+  - Renaud Detry
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*Workshop on Robotic Hands, Grasping, and Manipulation at ICRA*"
+
+date: 2015-05-26T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "11"
+
+featured: true
+tags:
+  - Robotics
+  - Benchmarks
+  - Grasping
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:56.915643Z'
-publication_types:
-- '2'
-abstract: ''
-publication: '*ICRA 2015*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
