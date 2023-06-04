@@ -1,35 +1,61 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Behavioural domain knowledge transfer for autonomous agents
-subtitle: ''
-summary: ''
+title:  "Behavioural Domain Knowledge Transfer for Autonomous Agents"
 authors:
-- Benjamin Saul Rosman
-tags: []
-categories: []
-date: '2014-01-01'
-lastmod: 2022-09-17T14:22:33+02:00
-featured: false
-draft: false
+  - Benjamin Rosman
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*AAAI Fall Symposium on Knowledge, Skill, and Behavior Transfer in Autonomous Robots*"
+
+date: 2014-11-13T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "10"
+
+abstract: "An agent continuously performing different tasks in
+  the same domain has the opportunity to learn, over the
+  course of its operational lifetime, about the behavioural
+  regularities afforded by the domain. This paper addresses
+  the problem of learning a task independent behaviour
+  model based on the underlying structure of a
+  domain which is common across multiple tasks presented
+  to an autonomous agent. Our approach involves
+  learning action priors: a behavioural model which encodes
+  a notion of local common sense behaviours in the
+  domain, conditioned on either the state or observations
+  of the agent. This knowledge is accumulated and transferred
+  as an exploration behaviour whenever a new task
+  is presented to the agent. The effect is that as the agent
+  encounters more tasks, it is able to learn them faster and
+  achieve greater overall performance. This approach is
+  illustrated in experiments in a simulated extended navigation
+  domain."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Transfer Learning
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:32.538698Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2014 AAAI Fall Symposium Series*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---

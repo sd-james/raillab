@@ -1,36 +1,62 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Feature selection for domain knowledge representation through multitask learning
-subtitle: ''
-summary: ''
+title:  "Feature Selection for Domain Knowledge Representation through Multitask Learning"
 authors:
-- Benjamin Rosman
-tags: []
-categories: []
-date: '2014-01-01'
-lastmod: 2022-09-17T14:22:35+02:00
-featured: false
-draft: false
+  - Benjamin Rosman
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*IEEE International Conference on Development and Learning and on Epigenetic Robotics*"
+
+date: 2014-10-13T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "Representation learning is a difficult and important
+  problem for autonomous agents. This paper presents an approach
+  to automatic feature selection for a long-lived learning agent,
+  which tackles the trade-off between a sparse feature set which
+  cannot represent stimuli of interest, and rich feature sets which
+  increase the dimensionality of the space and thus the difficulty
+  of the learning problem. We focus on a multitask reinforcement
+  learning setting, where the agent is learning domain knowledge in
+  the form of behavioural invariances as action distributions which
+  are independent of task specifications. Examining the change in
+  entropy that occurs in these distributions after marginalising
+  features provides an indicator of the importance of each feature.
+  Interleaving this with policy learning yields an algorithm for
+  automatically selecting features during online operation. We
+  present experimental results in a simulated mobile manipulation
+  environment which demonstrates the benefit of our approach."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Transfer Learning
+  - Feature Selection
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:34.130123Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*4th International Conference on Development and Learning and on Epigenetic
-  Robotics*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+
+

@@ -1,36 +1,54 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Giving advice to agents with hidden goals
-subtitle: ''
-summary: ''
+title:  "Giving Advice to Agents with Hidden Goals"
 authors:
-- Benjamin Rosman
-- Subramanian Ramamoorthy
-tags: []
-categories: []
-date: '2014-01-01'
-lastmod: 2022-09-17T14:22:28+02:00
-featured: false
-draft: false
+  - Benjamin Rosman
+  - Subramanian Ramamoorthy
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*IEEE International Conference on Robotics and Automation*"
+
+date: 2014-05-31T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "This paper considers the problem of providing advice to an autonomous agent when neither the behavioural policy
+  nor the goals of that agent are known to the advisor. We present an approach based on building a model of common sense
+  behaviour in the domain, from an aggregation of different users performing various tasks, modelled as MDPs, in the same domain.
+  From this model, we estimate the normalcy of the trajectory given by a new agent in the domain, and provide behavioural advice
+  based on an approximation of the trade-off in utility between potential benefits to the exploring agent and the costs incurred 
+  in giving this advice. This model is evaluated on a maze world domain by providing advice to different types of agents, and
+  we show that this leads to a considerable and unanimous improvement in the completion rate of their tasks."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Human Advice
+  - Transfer Learning
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:26.855772Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2014 IEEE International Conference on Robotics and Automation (ICRA)*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+
+

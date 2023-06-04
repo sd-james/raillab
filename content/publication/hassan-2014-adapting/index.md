@@ -1,39 +1,76 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Adapting interaction environments to diverse users through online action set
-  selection
-subtitle: ''
-summary: ''
+title:  "Adapting Interaction Environments to Diverse Users through Online Action Set Selection"
 authors:
-- MM Hassan Mahmud
-- Benjamin S Rosman
-- Subramanian Ramamoorthy
-- Pushmeet Kohli
-tags: []
-categories: []
-date: '2014-01-01'
-lastmod: 2022-09-17T14:22:30+02:00
-featured: false
-draft: false
+  - MM Hassan Mahmud
+  - Benjamin Rosman
+  - Subramanian Ramamoorthy
+  - Pushmeet Kohli
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*AAAI Workshop on Machine Learning for Interactive Systems*"
+
+date: 2014-07-27T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "9"
+
+abstract: "Interactive interfaces are a common feature of many systems
+  ranging from field robotics to video games. In most applications,
+  these interfaces must be used by a heterogeneous set
+  of users, with substantial variety in effectiveness with the
+  same interface when configured differently. We address the
+  issue of personalizing such an interface, adapting parameters
+  to present the user with an environment that is optimal
+  with respect to their individual traits - enabling that particular
+  user to achieve their personal optimum. We introduce a
+  new class of problem in interface personalization where the
+  task of the adaptive interface is to choose the subset of actions
+  of the full interface to present to the user. In formalizing
+  this problem, we model the user as a Markov decision process
+  (MDP), wherein the transition dynamics within a task
+  depends on the type (e.g., skill or dexterity) of the user, where
+  the type parametrizes the MDP. The action set of the MDP is
+  divided into disjoint set of actions, with different action-sets
+  optimal for different type (transition dynamics). The task of
+  the adaptive interface is then to choose the right action-set.
+  Given this formalization, we present experiments with simulated
+  and human users in a video game domain to show
+  that (a) action set selection is an interesting class of problems
+  (b) adaptively choosing the right action set improves performance
+  over sticking to a fixed action set and (c) immediately
+  applicable approaches such as bandits can be improved upon."
+
+featured: true
+tags:
+  - Human Computer Interaction
+  - User Interface Design
+  - Reinforcement Learning
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:29.413552Z'
-publication_types:
-- '2'
-abstract: ''
-publication: ''
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+
+
+
+
