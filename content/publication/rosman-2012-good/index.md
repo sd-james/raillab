@@ -1,37 +1,60 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: What good are actions? Accelerating learning using learned action priors
-subtitle: ''
-summary: ''
+title:  "What Good are Actions? Accelerating Learning using Learned Action Priors"
 authors:
-- Benjamin Rosman
-- Subramanian Ramamoorthy
-tags: []
-categories: []
-date: '2012-01-01'
-lastmod: 2022-09-17T14:22:23+02:00
-featured: false
-draft: false
+  - Benjamin Rosman
+  - Subramanian Ramamoorthy
+author_notes: []
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+publication: "*IEEE International Conference on Development and Learning and on Epigenetic Robotics*"
+
+date: 2012-11-12T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "The computational complexity of learning in sequential
+  decision problems grows exponentially with the number of
+  actions available to the agent at each state. We present a method
+  for accelerating this process by learning action priors that express
+  the usefulness of each action in each state. These are learned from
+  a set of different optimal policies from many tasks in the same
+  state space, and are used to bias exploration away from less useful
+  actions. This is shown to improve performance for tasks in the
+  same domain but with different goals. We extend our method
+  to base action priors on perceptual cues rather than absolute
+  states, allowing the transfer of these priors between tasks with
+  differing state spaces and transition functions, and demonstrate
+  experimentally the advantages of learning with action priors in
+  a reinforcement learning context."
+
+featured: true
+tags:
+  - Reinforcement Learning
+  - Transfer Learning
+  - Action Priors
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:22.183619Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*2012 IEEE International Conference on Development and Learning and
-  Epigenetic Robotics (ICDL)*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+
+

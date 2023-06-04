@@ -1,38 +1,60 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
-title: Language performance at high school and success in first year computer science
-subtitle: ''
-summary: ''
+title:  "Language Performance at High School and Success in First Year Computer Science"
 authors:
-- Sarah Rauchas
-- Benjamin Rosman
-- George Konidaris
-- Ian Sanders
-tags: []
-categories: []
-date: '2006-01-01'
-lastmod: 2022-09-17T14:22:15+02:00
-featured: false
-draft: false
+  - Sarah Rauchas
+  - Benjamin Rosman
+  - George Konidaris
+  - Ian Sanders
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+author_notes: []
+
+publication: "*SIGCSE Technical Symposium on Computer Science Education*"
+
+date: 2006-03-03T00:00:00Z
+publishDate: 2022-10-05T00:00:00Z
+
+# conf = 1, journal = 2, preprint = 3, report = 4, book = 5, book chapter = 6, thesis = 7, patent = 9
+# workshop = 9, symposium = 10, extended abstract =11
+publication_types:
+  - "1"
+
+abstract: "We describe the first part of a study investigating the usefulness
+  of high school language results as a predictor of success
+  in first year computer science courses at a university where
+  students have widely varying English language skills. Our
+  results indicate that contrary to the generally accepted view
+  that achievement in high school mathematics courses is the
+  best individual predictor of success in undergraduate computer
+  science, success in English at the first-language level
+  in high school correlates better with actual performance.
+  We discuss the implications of this for universities whose
+  medium of teaching is English, operating in social contexts
+  where many students are not native English speakers."
+
+featured: true
+tags:
+  - Education
+
+
 image:
-  caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2022-09-17T12:22:13.888331Z'
-publication_types:
-- '2'
-abstract: ''
-publication: '*ACM SIGCSE Bulletin*'
+slides: null
+
+
+#url_dataset: "#"
+#url_project: ""
+#publication_short: ""
+#url_source: "#"
+#url_slides: ""
+#url_poster: "#"
+#url_code: "#"
+# doi: ""
+
+
+
 ---
+
+
+
