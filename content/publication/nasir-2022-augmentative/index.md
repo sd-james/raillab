@@ -3,7 +3,7 @@ title:  "Augmentative Topology Agents For Open-ended Learning"
 authors:
   - Muhammad Nasir
   - Steven James
-  - Christopher W. Cleghorn
+  - Christopher Cleghorn
   
 author_notes: []
 
