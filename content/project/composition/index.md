@@ -2,9 +2,9 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Composition"
-#summary: "An example of using the in-built project page"
+# summary: "An example of using the in-built project page"
 authors: null
-# tags: [Deep Learning]
+tags: [Reinforcement Learning]
 categories: []
 date: 2022-05-10T23:09:11+02:00
 
@@ -12,7 +12,7 @@ date: 2022-05-10T23:09:11+02:00
 external_link: ''
 
 image:
-caption: Photo by Mayur Deshpande on Unsplash
+#caption: Photo by Mayur Deshpande on Unsplash
 focal_point: Smart
 
 #links:
@@ -32,9 +32,10 @@ focal_point: Smart
 #   Otherwise, set `slides = ""`.
 slides: ""
 
-# {{< gallery album="composition" >}}
+#{{< gallery album="composition" >}}
 
 ---
 
 In this line of work, we are interested in techniques that allow an agent to leverage past knowledge to solve new tasks quickly. In particular, we focus on how agents can acquire behaviours that can be combined to generate interesting, novel abilities. One particular focus is on applying Boolean operators to learned behaviours to generate provably optimal solutions to new tasks. Not only are these approaches human-understandable, but they result in a combinatorial explosion in an agent's abilities, which is key to tackling the multitask or lifelong learning setting.
+
 

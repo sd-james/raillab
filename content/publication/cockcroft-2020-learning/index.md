@@ -44,6 +44,9 @@ preview_only: false
 
 slides: null
 
+projects:
+  - symbols
+
 #url_dataset: "#"
 #url_project: ""
 #publication_short: ""

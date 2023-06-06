@@ -1,5 +1,5 @@
 ---
-title: Matthew Cockccroft
+title: Matthew Cockcroft
 weight: 40
 role:
 interests:

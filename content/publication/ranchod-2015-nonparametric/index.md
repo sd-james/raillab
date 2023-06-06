@@ -45,6 +45,8 @@ image:
 
 slides: null
 
+projects:
+  - symbols
 
 #url_dataset: "#"
 #url_project: ""

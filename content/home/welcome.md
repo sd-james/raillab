@@ -19,6 +19,8 @@ design:
 
 <br>
 
-The RAIL lab was founded in 2014 and has produced state-of-the-art research into artificially intelligent systems ever since.
-We aim to act as a centre of excellence and nexus of activities around AI in Africa, and to benefit society through the application of our work.
+The RAIL Lab, established in 2014, is dedicated to conducting cutting-edge research in the field of artificially intelligent systems. 
+With a focus on both fundamental and applied research, our vision is to serve as a prominent centre of excellence and a hub for 
+AI activities in Africa. We aim to make significant contributions to the field of AI while also applying our findings to benefit society at large.
+
 
