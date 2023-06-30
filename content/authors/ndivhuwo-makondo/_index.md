@@ -1,5 +1,6 @@
 ---
 title: Ndivhuwo Makondo
+surname: Makondo
 weight: 30
 role: Research Scientist
 interests:
@@ -17,6 +18,9 @@ organizations:
   - name: IBM
 superuser: false
 user_groups:
-  - Research Associates 
+  - Research Associates
+  - Alumni
 highlight_name: true
+grad_info: PhD, 2018
+
 ---

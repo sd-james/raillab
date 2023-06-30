@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: armchair
+  theme_day: armchair # minimal
   theme_night:
   font: armchair_font
   font_size: L
@@ -113,4 +113,4 @@ extensions:
 
 publications:
   date_format: January 2006
-  citation_style: apa
+  citation_style: mla

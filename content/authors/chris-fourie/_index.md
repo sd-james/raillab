@@ -1,5 +1,6 @@
 ---
 title: Chris Fourie
+surname: Fourie
 weight: 50
 role:
 interests:
@@ -24,8 +25,9 @@ social:
     link: https://www.chrisfourie.africa/
 superuser: false
 user_groups:
-    - MSc Candidates 
+    - Alumni 
 highlight_name: true
+grad_info: MSc, 2022
 ---
 Medical doctor turned health data scientist, trying to use the powers of AI for social good. Currently busy with a Computer Science masters and interested in research at the intersections of theoretical / computational neuroscience and machine learning.
 

@@ -23,6 +23,11 @@
   {{ end }}
 
   {{ range $page.Params.content.user_groups }}
+
+  {{ if eq . "Alumni" }}
+  {{ continue }}
+  {{ end }}
+
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
   {{ $currentGroup := .}}
@@ -35,9 +40,7 @@
 
 <!--  TODO Not sorting properly-->
 
-  {{- if eq $currentGroup "Alumni" -}}
-  {{ $query:= sort $query ".Params.grad_year" "asc" }}
-  {{-  end -}}
+  {{ if ne $currentGroup "Alumni" }}
 
   {{ range $query }}
 
@@ -48,7 +51,6 @@
   {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
   {{ $link = .RelPermalink }}
   {{ end }}
-  {{- if ne $currentGroup "Alumni" -}}
   <div class="col-12 col-sm-auto people-person">
     {{ $src := "" }}
     {{ if site.Params.features.avatar.gravatar }}
@@ -68,26 +70,41 @@
       {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
       {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
       {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+      <br/>
     </div>
   </div>
 
-  {{ else }}
-  <div class="col-12 col-sm-auto people-person" style='padding-right:5px;padding-left:5px;'>
-    <div class="portrait-title">
-      {{ $link := .Params.external_link }}
-      <h2 style="margin-bottom: 0ex; margin-top: 1pt;">{{with $link}}<a href="{{.}}">{{end}}{{ .Params.title }}{{if $link}}</a>{{end}}</h2>
-      {{ $thesis := .Params.thesis}}
-      {{ $dissertation := .Params.dissertation}}
-      {{ $year := .Params.grad_year}}
-      <p class="people-interests">
-        {{- if $thesis }} {{$thesis}}. <em>PhD Thesis</em>
-        {{- else if $dissertation }} {{$dissertation}}. <em>MSc Dissertation</em>   {{ end -}}
-        {{- if $year }}, {{$year}}. {{ end -}}
-      </p>
-    </div>
-  </div>
-  {{-  end -}}
-
+  {{ end }}
   {{ end }}
   {{ end }}
 </div>
+
+<!--Alumni Only-->
+
+{{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice "Alumni") }}
+
+{{if $query }}
+
+<div class="article-widget content-widget-hr">
+  <div class="col-md-12">
+    <h2 class="mb-4">Alumni</h2>
+  </div>
+  <ul>
+
+    {{ $query:= sort $query ".Params.surname" "asc" }}
+    {{ range $query }}
+
+    {{ $link := "" }}
+    {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
+    {{ $link = .RelPermalink }}
+    {{ end }}
+
+    <li>
+      {{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}{{ if .Params.grad_info}} ({{ .Params.grad_info }}){{ end }}
+    </li>
+    {{ end }}
+
+  </ul>
+</div>
+
+{{ end }}

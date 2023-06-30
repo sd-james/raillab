@@ -1,5 +1,6 @@
 ---
 title: Michael Beukman
+surname: Beukman
 weight: 9
 role:
 interests:
@@ -17,6 +18,7 @@ social:
     link: https://michaelbeukman.com/
 superuser: false
 user_groups:
-    - MSc Candidates 
+    - Alumni
 highlight_name: true
+grad_info: MSc, 2023
 ---

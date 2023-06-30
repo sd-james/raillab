@@ -1,5 +1,5 @@
 ---
-title: Latest Research
+title: Blog
 
 # Listing view.  card or compact work best here
 view: card

@@ -1,12 +1,13 @@
 ---
 title: Steven James
+surname: James
 weight: 2
-role: Lecturer
+role: Senior Lecturer
 bio: My research interests include reinforcement learning and planning.
 interests:
   - Artificial Intelligence
   - Reinforcement Learning
-  - Machine Learning
+  - Planning
 social:
   - icon: envelope
     icon_pack: fas
@@ -43,7 +44,7 @@ user_groups:
   - Alumni
   - Faculty 
 highlight_name: true
-grad_year: 2022
+grad_info: PhD, 2021
 
 ---
 

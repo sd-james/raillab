@@ -19,7 +19,8 @@ content:
     - Faculty
     - Research Associates
     - PhD Candidates
-    - MSc Candidates
+    - MSc Candidates 
+    - Alumni
 design:
   show_interests: true
   show_role: true

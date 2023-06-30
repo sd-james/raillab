@@ -26,7 +26,7 @@ content:
   coordinates:
     latitude: '-26.19024679575568'
     longitude: '28.026768376374523'
-  directions: Room 212, Mathematical Sciences Laboratory
+  directions: Room 214, Mathematical Sciences Laboratory
 
   contact_links:
     - icon: twitter

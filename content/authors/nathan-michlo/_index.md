@@ -1,5 +1,6 @@
 ---
 title: Nathan Michlo
+surname: Michlo
 weight: 110
 role:
 interests:
@@ -16,6 +17,7 @@ social:
     link: https://dontpanic.sh/
 superuser: false
 user_groups:
-    - MSc Candidates 
+    - Alumni
 highlight_name: true
+grad_info: MSc, 2022
 ---
