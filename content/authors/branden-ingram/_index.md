@@ -1,7 +1,7 @@
 ---
 title: Branden Ingram
-weight: 1.5
-role: Associate Lecturer
+weight: 2
+role: Lecturer
 bio: I am primarily interested in AI for games.
 interests:
   - Artificial Intelligence for Games

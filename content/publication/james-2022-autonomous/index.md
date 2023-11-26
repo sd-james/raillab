@@ -34,7 +34,7 @@ tags:
   - Transfer Learning
 
 projects:
-- symbols
+  - symbols
 
 image:
 focal_point: ''

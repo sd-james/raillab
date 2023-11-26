@@ -1,7 +1,7 @@
 ---
 title: Steven James
 surname: James
-weight: 2
+weight: 3
 role: Senior Lecturer
 bio: My research interests include reinforcement learning and planning.
 interests:
