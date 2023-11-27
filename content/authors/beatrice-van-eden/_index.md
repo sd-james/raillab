@@ -1,6 +1,6 @@
 ---
 title: Beatrice van Eden
-weight: 120
+weight: 130
 role:
 interests:
   - Robotics 

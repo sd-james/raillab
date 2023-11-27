@@ -1,6 +1,6 @@
 ---
 title: Nikhil Gilbert
-weight: 60
+weight: 120
 role:
 interests:
   - Model-based Reinforcement Learning
