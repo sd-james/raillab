@@ -1,3 +1,8 @@
+---
+title: Michael Beukman
+avatar_filename: avatar.jpg
+superuser: false
+---
 
 ---
 title: Michael Beukman
