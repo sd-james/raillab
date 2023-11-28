@@ -1,11 +1,5 @@
 ---
 title: Michael Beukman
-avatar_filename: avatar.jpg
-superuser: false
----
-
----
-title: Michael Beukman
 surname: Beukman
 weight: 3
 role:
