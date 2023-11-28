@@ -1,6 +1,6 @@
 ---
 title: Nomfundiso Khuma
-weight: 160
+weight: 90
 role:
 interests:
   - Manifold Learning

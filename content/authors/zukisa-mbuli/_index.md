@@ -1,33 +1,12 @@
-
 ---
 title: Zukisa Mbuli
-surname: Mbuli
-weight: 180
+weight: 100
 role:
-bio: 
 interests:
-  - Deep Reinforcement Learning
-  - Computer Vision
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:zuksmbl@gmail.com
-
-
-
-
-
-organizations:
-  - name: University of the Witwatersrand
-    url: https://www.wits.ac.za/csam/
-
+  - Lifelong Reinforcement Learning
 superuser: false
 user_groups:
-  - MSc Candidates
+    - MSc Candidates 
 highlight_name: true
-
-
 ---
-
-
 

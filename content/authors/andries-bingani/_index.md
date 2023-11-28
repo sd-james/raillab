@@ -1,6 +1,6 @@
 ---
 title: Andries Bingani
-weight: 40
+weight: 10
 role:
 interests:
   - Robotics

@@ -38,12 +38,13 @@ education:
     - course: BSc in Computer Science
       institution: University of the Witwatersrand
       year: 2012
+email: ""
 superuser: false
 user_groups:
   - Alumni
   - Faculty 
 highlight_name: true
-grad_info: MSc, 2016; PhD, 2021
+grad_info: PhD, 2021
 
 ---
 

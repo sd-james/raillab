@@ -1,7 +1,6 @@
 ---
 title: Aneesh Chandran
-surnamne: Chandran
-weight: 90
+weight: 30
 role:
 interests:
   - Reinforcement Learning
