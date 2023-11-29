@@ -4,8 +4,8 @@ authors:
   - Michael Beukman
   - Devon Jarvis
   - Richard Klein
-  - Benjamin Rosman
   - Steven James
+  - Benjamin Rosman
 
 author_notes: []
 
