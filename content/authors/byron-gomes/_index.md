@@ -1,6 +1,6 @@
 ---
 title: Byron Gomes
-weight: 70
+weight: 130
 role:
 interests:
   - Reinforcement Learning

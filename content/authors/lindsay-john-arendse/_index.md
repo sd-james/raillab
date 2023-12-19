@@ -1,6 +1,7 @@
 ---
 title: Lindsay John Arendse
-weight: 80
+surname: Arendse
+weight: 20
 role:
 interests:
   - Reinforcement Learning

@@ -1,6 +1,6 @@
 ---
 title: Simphiwe Zitha
-weight: 130
+weight: 140
 role:
 interests:
   - Reinforcement Learning
