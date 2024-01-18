@@ -1,7 +1,7 @@
 ---
 title: Benjamin Rosman
 role: RAIL Lab Director
-avatar_filename: https://raillab.org/content/me-16x9.jpg
+avatar_filename: avatar.jpg
 bio: I am a Professor in the School of Computer Science and Applied Mathematics
   at the University of the Witwatersrand in Johannesburg. I work in robotics,
   artificial intelligence, decision theory and machine learning.
