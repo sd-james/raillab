@@ -19,3 +19,32 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[redirects]]
+from = "https://papers.raillab.org/*"
+to =   "https://raillab.org/publication/:splat"
+status = 200
+
+[[redirects]]
+from = "https://pubs.raillab.org/*"
+to =   "https://raillab.org/publication/:splat"
+status = 200
+
+[[redirects]]
+from = "https://projects.raillab.org/*"
+to =   "https://raillab.org/project/:splat"
+status = 200
+
+[[redirects]]
+from = "https://people.raillab.org/*"
+to =   "https://raillab.org/people/:splat"
+status = 200
+
+[[redirects]]
+from = "https://join.raillab.org/"
+to =   "https://raillab.org/join/"
+status = 200
+
+
+
+
