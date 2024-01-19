@@ -46,5 +46,12 @@ to =   "https://raillab.org/join/"
 status = 200
 
 
+[[redirects]]
+from = "https://www.raillab.org/joining-the-lab/"
+to =   "https://raillab.org/join/"
+status = 200
+
+
+
 
 
