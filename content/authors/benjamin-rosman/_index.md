@@ -1,11 +1,10 @@
 ---
 title: Benjamin Rosman
-weight: 1
 role: RAIL Lab Director
-avatar_filename: https://raillab.org/content/me-16x9.jpg
-bio: I am an Associate Professor in the School of Computer Science and Applied
-  Mathematics at the University of the Witwatersrand in Johannesburg. I work in
-  robotics, artificial intelligence, decision theory and machine learning.
+avatar_filename: avatar.jpg
+bio: I am a Professor in the School of Computer Science and Applied Mathematics
+  at the University of the Witwatersrand in Johannesburg. I work in robotics,
+  artificial intelligence, decision theory and machine learning.
 interests:
   - Robotics
   - Machine Learning
@@ -23,12 +22,13 @@ social:
 organizations:
   - name: University of the Witwatersrand
     url: https://www.wits.ac.za/csam/
-superuser: true
+superuser: false
 user_groups:
-    - Faculty 
+  - Faculty
 highlight_name: true
+weight: 1
 ---
-I am an Associate Professor in the School of Computer Science and Applied Mathematics at the University of the Witwatersrand in Johannesburg. I work in robotics, artificial intelligence, decision theory and machine learning.
+I am a Professor in the School of Computer Science and Applied Mathematics at the University of the Witwatersrand in Johannesburg. I work in robotics, artificial intelligence, decision theory and machine learning.
 
 I obtained my PhD in intelligent robotics from the Institute of Perception, Action and Behaviour in the School of Informatics at the University of Edinburgh, under the supervision of Dr Subramanian Ramamoorthy.
 
