@@ -1,7 +1,6 @@
 ---
 title: Pravesh Ranchod
 role: Lecturer
-avatar_filename: 3d4a7421-scaled-e1675846915490.jpg
 bio: I am a Lecturer in the School of Computer Science and Applied Mathematics
   at the University of the Witwatersrand
 interests:
