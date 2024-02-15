@@ -1,12 +1,12 @@
 ---
 title: Pravesh Ranchod
-surname: Ranchod
-weight: 4
 role: Lecturer
-bio: I am a Lecturer in the School of Computer Science and Applied Mathematics at the University of the Witwatersrand
+avatar_filename: 3d4a7421-scaled-e1675846915490.jpg
+bio: I am a Lecturer in the School of Computer Science and Applied Mathematics
+  at the University of the Witwatersrand
 interests:
   - Robotics
-  - Machine Learning 
+  - Machine Learning
   - Reinforcement Learning
 social:
   - icon: envelope
@@ -16,15 +16,16 @@ social:
     icon_pack: ai
     link: https://scholar.google.com/citations?user=BvE8-EoAAAAJ
 organizations:
-    - name: University of the Witwatersrand
-      url: https://www.wits.ac.za/csam/
+  - name: University of the Witwatersrand
+    url: https://www.wits.ac.za/csam/
 superuser: false
 user_groups:
-      - Faculty 
-      - Alumni
+  - Faculty
+  - Alumni
 highlight_name: true
+weight: 4
+surname: Ranchod
 grad_info: PhD, 2018
-
 ---
 I work in Learning from Demonstration, with a focus on Skill Discovery. The central idea is that we are losing a lot of information if we view expert demonstrations as atomic. Behaviour recorded from an expert can be decomposed into component skills which can then be reused in contexts that the demonstrator does not have to anticipate.
 
