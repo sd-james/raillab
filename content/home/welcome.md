@@ -8,7 +8,7 @@ headless: true # This file represents a page section.
 weight: 10 # Order that this section will appear.
 title: |
   Robotics, Autonomous Intelligence and Learning Lab
-hero_media: dalle-robot-research.png
+hero_media: lab_small.png
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
