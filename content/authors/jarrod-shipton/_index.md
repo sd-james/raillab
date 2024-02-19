@@ -3,7 +3,7 @@
 title: Jarrod Shipton
 surname: Shipton
 weight: 90
-role:
+role: Associate Lecturer
 bio: Lover of music, strategic games, understanding human behaviour, AI-Human coordination and bettering the future for the underprivileged.
 interests:
   - Multi-Agent Reinforcement Learning
@@ -28,6 +28,7 @@ organizations:
 superuser: false
 user_groups:
   - PhD Candidates
+  - Faculty
 highlight_name: true
 grad_info: MSc, 2017
 

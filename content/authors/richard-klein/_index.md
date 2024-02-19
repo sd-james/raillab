@@ -1,7 +1,7 @@
 ---
 title: Richard Klein
-weight: 3
-role: Associate Professor
+weight: 11
+role: PRIME Lab Director
 bio: I am an Associate Professor in the School of Computer Science and Applied
   Mathematics at the University of the Witwatersrand in Johannesburg, and a co-PI of the PRIME lab. 
 interests:
@@ -19,7 +19,7 @@ organizations:
       url: https://www.wits.ac.za/csam/
 superuser: false
 user_groups:
-      - Faculty 
+      - Research Associates
 highlight_name: true
 ---
 

@@ -2,7 +2,7 @@
 ---
 title: Pierce Burke
 surname: Burke
-weight: 70
+weight: 2
 role:
 bio: My work mostly focuses on computer vision, generative AI, and the application of machine learning models in various domains. However, I have an interest in using machine learning techniques for addressing real-world challenges and improving our understanding of the world around us.
 interests:
@@ -30,7 +30,10 @@ organizations:
 
 superuser: false
 user_groups:
-  - MSc Candidates
+  - PhD Candidates
+  - Alumni
+
+grad_info: MSc, 2023
 highlight_name: true
 
 

@@ -1,6 +1,7 @@
 ---
 title: Byron Gomes
-weight: 130
+surname: Gomes
+weight: 1000
 role:
 interests:
   - Reinforcement Learning
@@ -10,8 +11,9 @@ social:
     link: https://www.linkedin.com/in/byron-gomes-frm-26913758/
 superuser: false
 user_groups:
-    - MSc Candidates 
+    - Alumni 
 highlight_name: true
+grad_info: MSc, 2023
 ---
 I am currently a MSc student at the University of the Witwatersrand, South Africa. I am also a practising Quantitative Analyst working in the field of Model Validation. I have been drawn to the field of Artificial Intelligence and Robotics mostly out of curiosity, but also from recent developments in the financial services industry making use of this technology to improve efficiency and performance. Outside of work and studies I am an avid gamer, hiker, and Rubik's Cube speedsolver.
 

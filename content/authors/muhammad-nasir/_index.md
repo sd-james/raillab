@@ -40,6 +40,7 @@ education:
 superuser: false
 user_groups:
   - PhD Candidates
+  - Alumni
 highlight_name: true
 grad_info: MSc, 2023
 

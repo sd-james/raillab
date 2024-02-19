@@ -2,7 +2,7 @@
 ---
 title: Simon Rosen
 surname: Rosen
-weight: 240
+weight: 85
 role:
 bio: I am an experienced software developer and a master’s candidate. My research is focused on sample efficiency in cooperative multiagent reinforcement learning by leveraging knowledge transfer. 
 interests:
@@ -33,7 +33,7 @@ organizations:
 
 superuser: false
 user_groups:
-  - MSc Candidates
+  - PhD Candidates
 highlight_name: true
 
 

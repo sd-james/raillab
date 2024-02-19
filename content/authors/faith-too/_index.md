@@ -5,8 +5,8 @@ role:
 interests:
   - Recommender Systems 
 superuser: false
-user_groups:
-  - PhD Candidates 
+#user_groups:
+#  - PhD Candidates 
 highlight_name: true
 ---
 

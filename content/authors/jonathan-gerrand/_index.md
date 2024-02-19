@@ -19,7 +19,7 @@ organizations:
     url: https://explore-utilities.com/
 email: ""
 superuser: false
-user_groups:
-  - PhD Candidates  
+#user_groups:
+#  - PhD Candidates  
 highlight_name: true
 ---

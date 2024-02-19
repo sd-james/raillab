@@ -2,9 +2,9 @@
 ---
 title: Devon Jarvis
 surname: Jarvis
-weight: 30
-role:
-bio: I am a PhD candidate and Sessional Lecturer at Wits interested in studying systematic generalization and the emergence of modularity in the brain and machines.
+weight: 4
+role: Associate Lecturer
+bio: I am a PhD candidate and Associate Lecturer at Wits interested in studying systematic generalization and the emergence of modularity in the brain and machines.
 interests:
   - Theoretical Machine Learning
   - Computational Neuroscience
@@ -38,7 +38,8 @@ education:
 
 superuser: false
 user_groups:
-  - PhD Candidates
+  - Faculty
+  - Alumni
 highlight_name: true
 grad_info: MSc, 2021
 

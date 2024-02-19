@@ -2,8 +2,8 @@
 ---
 title: Geraud Nangue Tasse
 surname: Nangue Tasse
-weight: 60
-role:
+weight: 5
+role: Associate Lecturer
 bio: I am an IBM PhD fellow interested in reinforcement learning (RL) since it is the subfield of machine learning with the most potential for achieving AGI. 
 interests:
   - Reinforcement Learning
@@ -36,7 +36,8 @@ organizations:
 
 superuser: false
 user_groups:
-  - PhD Candidates
+  - Faculty
+  - Alumni
 highlight_name: true
 grad_info: MSc, 2020
 
