@@ -2,7 +2,7 @@
 title: Steven James
 surname: James
 weight: 2
-role: Deputy Director
+role: Deputy Lab Director
 bio: My research interests include reinforcement learning and planning.
 interests:
   - Artificial Intelligence
