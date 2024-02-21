@@ -27,7 +27,6 @@ organizations:
 
 superuser: false
 user_groups:
-  - PhD Candidates
   - Faculty
 highlight_name: true
 grad_info: MSc, 2017
