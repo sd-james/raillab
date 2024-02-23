@@ -53,3 +53,7 @@ education:
       year: 2010
 
 ---
+
+I am a research scientist and manager at IBM Research | Africa in Johannesburg, South Africa, where I lead a team of scientists and software engineers developing AI technology for natural language processing and understanding for various scientific and business problems; I am also a visiting researcher at the University of the Witwatersrand in Johannesburg, South Africa, where I collaborate and supervise students.
+
+I am motivated by the vision of developing a "full stack" technology for autonomous robotic agents, spanning various levels of abstraction and modalities, including from low-level modeling and control to high-level abstract reasoning, with input modalities such as vision, text, etc; and integrating various forms of domain knowledge into learning systems, such as physics robot models, symbolic knowledge and knowledge graphs, etc. I have worked on subsets of some of these research areas separately throughout my research career.   
