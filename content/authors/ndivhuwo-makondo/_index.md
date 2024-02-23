@@ -2,7 +2,7 @@
 title: Ndivhuwo Makondo
 surname: Makondo
 weight: 30
-role: Research Scientist and Manager; Visiting Researcher
+role: Research Scientist and Manager & Visiting Researcher
 bio: My research interests include knowledge representation and reasoning, machine learning, robotics, and natural language processing.
 interests:
   - Artificial Intelligence
