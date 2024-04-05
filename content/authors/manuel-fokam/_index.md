@@ -1,6 +1,6 @@
 
 ---
-title: Arnol Fokam
+title: Manuel Fokam
 surname: Fokam
 weight: 110
 role:
