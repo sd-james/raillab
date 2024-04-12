@@ -15,5 +15,5 @@ organizations:
 superuser: false
 user_groups:
   - Research Associates 
-highlight_name: false
+highlight_name: true
 ---

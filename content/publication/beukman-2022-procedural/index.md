@@ -15,7 +15,7 @@ publication_types:
   - "1"
 authors:
   - Michael Beukman
-  - Christopher W. Cleghorn
+  - Christopher Cleghorn
   - Steven James
 author_notes: []
 publication: In *Proceedings of the Genetic and Evolutionary Computation Conference*
