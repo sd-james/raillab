@@ -1,6 +1,5 @@
 ---
-title:  "LLMatic: Neural Architecture Search via Large Language Models
-and Quality Diversity Optimization"
+title:  "LLMatic: Neural Architecture Search via Large Language Models and Quality Diversity Optimization"
 authors:
   - Muhammad Nasir
   - Sam Earle
