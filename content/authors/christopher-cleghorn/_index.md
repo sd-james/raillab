@@ -14,6 +14,6 @@ organizations:
   - name: Amazon
 superuser: false
 user_groups:
-  - Research Associates 
+  - Postdocs and Research Associates 
 highlight_name: true
 ---

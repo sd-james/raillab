@@ -17,7 +17,7 @@ content:
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
     - Faculty
-    - Research Associates
+    - Postdocs and Research Associates
     - PhD Candidates
     - MSc Candidates 
     - Alumni

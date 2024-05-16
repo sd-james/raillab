@@ -35,7 +35,7 @@ organizations:
     url: https://www.wits.ac.za/csam/
 superuser: false
 user_groups:
-  - Research Associates
+  - Postdocs and Research Associates
   - Alumni
 highlight_name: true
 grad_info: PhD, 2018

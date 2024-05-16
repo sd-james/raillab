@@ -42,7 +42,7 @@ education:
 
 superuser: false
 user_groups:
-  - Research Associates
+  - Postdocs and Research Associates
   - Alumni
 highlight_name: true
 grad_info: MSc, 2022

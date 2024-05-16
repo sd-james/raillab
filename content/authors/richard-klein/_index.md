@@ -19,7 +19,7 @@ organizations:
       url: https://www.wits.ac.za/csam/
 superuser: false
 user_groups:
-      - Research Associates
+      - Postdocs and Research Associates
 highlight_name: true
 ---
 
