@@ -42,9 +42,9 @@ Once you've done that, fill out the application form by clicking on the link bel
 
 Admission to the lab will follow a two-stage process. After an initial review, applicants will be shortlisted and contacted to arrange online interviews. All final decisions will be made at the conclusion of these interviews.  Please see the table below indicating the closing deadlines for applications, as well as the dates you can expect to hear back from us.
 
-- **Application closing date**: 22 January  2024
-- **Shortlist notification date**: 29 January 2024
-- **Final notification date**: 09 February  2024
+- **Application closing date**: 1 September  2024
+- **Shortlist notification date**: 15 September 2024
+- **Final notification date**: 22 September  2024
 
 ## What next?
 
