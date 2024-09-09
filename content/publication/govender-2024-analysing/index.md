@@ -43,7 +43,6 @@ image:
 project:
   -ai-in-games
 
-url_pdf: "https://ieeexplore.ieee.org/abstract/document/10645585"
 #url_dataset: "#"
 #url_project: ""
 #publication_short: ""
