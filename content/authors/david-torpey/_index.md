@@ -30,8 +30,9 @@ organizations:
 
 superuser: false
 user_groups:
-  - PhD Candidates
-highlight_name: true
+  - Alumni
+highlight_name: true 
+grad_info: PhD, 2024
 
 
 ---
