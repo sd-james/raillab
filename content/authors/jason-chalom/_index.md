@@ -43,9 +43,9 @@ education:
 
 superuser: false
 user_groups:
-  - MSc Candidates
+  - Alumni
 highlight_name: true
-grad_info: MSc, 2023 (hopefully)
+grad_info: MSc, 2024
 
 ---
 

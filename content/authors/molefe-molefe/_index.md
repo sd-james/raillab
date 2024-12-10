@@ -33,9 +33,10 @@ organizations:
 
 superuser: false
 user_groups:
-  - MSc Candidates
+  - PhD Candidates
+  - Alumni
 highlight_name: true
-grad_info: MSc, 2022
+grad_info: MSc, 2024
 
 ---
 
