@@ -9,7 +9,7 @@ authors:
   - Ray Mooney
   - Benjamin Rosman
 
-author_notes: []
+author_notes: [Equal contribution, Equal contribution]
 
 publication: "*Transactions on Machine Learning Research*"
 
