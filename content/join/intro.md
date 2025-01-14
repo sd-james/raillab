@@ -44,7 +44,7 @@ Admission to the lab will follow a two-stage process. After an initial review, a
 
 - **Application closing date**: 30 January  2025
 - **Shortlist notification date**: 7 February 2025
-- **Final notification date**: 14 February  2024
+- **Final notification date**: 14 February  2025
 
 ## What next?
 
