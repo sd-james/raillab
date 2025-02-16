@@ -39,8 +39,10 @@ education:
 
 
 superuser: false
+
 user_groups:
   - Alumni
+  - PhD Candidates
 highlight_name: true
 grad_info: MSc, 2024
 

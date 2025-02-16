@@ -26,7 +26,8 @@ organizations:
 
 superuser: false
 user_groups:
-  - MSc Candidates
+  - Alumni
+grad_info: MSc, 2025
 highlight_name: true
 
 
