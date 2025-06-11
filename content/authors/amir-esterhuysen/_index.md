@@ -24,19 +24,22 @@ education:
   courses:
     - course: BSc in Mathematics & Mathematical Statistics
       institution: University of the Witwatersrand
-      year: 
+      year: 2019
 
     - course: BSc Honours in Mathematics
       institution: University of the Witwatersrand
-      year: 
+      year: 2021
+    
+    - course: MSc in Artificial Intelligence
+      institution: University of the Witwatersrand
+      year: 2025
 
 
 superuser: false
 user_groups:
-  - MSc Candidates
+  - Alumni
 highlight_name: true
-
-
+grad_info: MSc, 2025
 ---
 
 

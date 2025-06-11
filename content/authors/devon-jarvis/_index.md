@@ -3,8 +3,8 @@
 title: Devon Jarvis
 surname: Jarvis
 weight: 4
-role: Associate Lecturer
-bio: I am a PhD candidate and Associate Lecturer at Wits interested in studying systematic generalization and the emergence of modularity in the brain and machines.
+role: Lecturer
+bio: I am a lecturer at Wits interested in studying systematic generalization and the emergence of modularity in the brain and machines.
 interests:
   - Theoretical Machine Learning
   - Computational Neuroscience
@@ -31,9 +31,9 @@ organizations:
     url: https://www.wits.ac.za/csam/
 education:
   courses:
-    - course: MSc in Computer Science
+    - course: PhD in Computer Science
       institution: University of the Witwatersrand
-      year: 2021
+      year: 2025
 
 
 superuser: false
@@ -41,7 +41,7 @@ user_groups:
   - Faculty
   - Alumni
 highlight_name: true
-grad_info: MSc, 2021
+grad_info: MSc, 2021; PhD, 2025
 
 ---
 

@@ -30,10 +30,9 @@ organizations:
 
 superuser: false
 user_groups:
-  - MSc Candidates
+  - Alumni
 highlight_name: true
-
-
+grad_info: MSc, 2025
 ---
 
 I am an expert procrastinator and avid gamer, with an interest in AI and technology as a whole. My passion lies particularly in NLP and robotics. As AI continues to advance and prove its use in everyday life, I firmly believe that enabling seamless communication between humans and AI systems is of great importance. This is especially relevant in the development of improved assistants, or robots in the home to help us lazy people.

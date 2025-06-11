@@ -47,7 +47,7 @@ grad_info: MSc, 2016; PhD, 2021
 
 ---
 
-I am a lecturer at the University of the Witwatersrand in Johannesburg, South Africa, where I've spent my entire academic career.
+I am a senior lecturer at the University of the Witwatersrand in Johannesburg, South Africa, where I've spent my entire academic career.
 
 My interest in AI stems from writing my own chess engine - it should therefore come as no surprise that I am very interested in games, be they board, video or logic.
 
