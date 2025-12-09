@@ -1,6 +1,6 @@
 
 ---
-title: Nevile Modise
+title: Neville Modise
 surname: Modise
 role:
 interests:
@@ -8,6 +8,18 @@ interests:
   - AI Fairness
   - Computer Vision
   - Natural Language Processing
+
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:rmnevillemodise@gmail.com
+  
+  
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/nevillemodise/
+
+
 
 organizations:
   - name: University of the Witwatersrand
