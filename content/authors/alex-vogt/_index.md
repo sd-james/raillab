@@ -29,6 +29,10 @@ organizations:
     url: https://www.wits.ac.za/csam/
 education:
   courses:
+    - course: MSc, Computer Science
+      institution: University of the Witwatersrand
+      year: 2025
+
     - course: BSc Honors in Computer Science
       institution: University of the Witwatersrand
       year: 2022
@@ -36,9 +40,9 @@ education:
 
 superuser: false
 user_groups:
-  - MSc Candidates
+  - Alumni
 highlight_name: true
-
+grad_info: MSc, 2025
 
 ---
 
