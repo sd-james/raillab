@@ -7,7 +7,7 @@ weight: 5 # Position of section on the page
 
 
 cta:
-  url: 'https://forms.office.com/r/tA1XZKjdNd'
+  url: 'https://forms.gle/Pqo5RohiKz9GgJQ2A'
   label: Click here to apply
 ---
 

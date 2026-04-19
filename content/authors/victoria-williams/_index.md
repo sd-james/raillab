@@ -1,7 +1,7 @@
 ---
 title: Victoria Williams
 surname: Williams
-weight: 1
+weight: 45
 role: Postdoctoral Researcher
 bio: I have an interdisciplinary background in the Neurosciences (MA Anthropology, PhD Neuroanatomy, Post doctorate in Psychology), which provides me with a holistic understanding of the human brain, from anatomy, behaviour to evolution. I am interested in integrating this knowledge into my Postdoctorate in Computer Sciences.
 interests:

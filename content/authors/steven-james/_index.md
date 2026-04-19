@@ -18,9 +18,9 @@ social:
   - icon: globe
     icon_pack: fas
     link: https://sdjames.me
-  - icon: cv
-    icon_pack: ai
-    link: https://sdjames.me/assets/content/james_cv.pdf
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/steven-james/
 organizations:
   - name: University of the Witwatersrand
     url: https://www.wits.ac.za/csam/
