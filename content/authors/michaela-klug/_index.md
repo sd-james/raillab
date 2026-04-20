@@ -2,7 +2,7 @@
 ---
 title: Michaela Klug
 surname: Klug
-weight: 161
+weight: 156
 role:
 bio: I am currently exploring using reinforcement learning to learn primitive actions given a demonstration.
 interests:

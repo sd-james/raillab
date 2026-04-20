@@ -1,7 +1,7 @@
 ---
 title: Mangaliso Mngomezulu
 surname: Mngomezulu
-weight: 158
+weight: 181
 role: 
 bio: Interested in general machine intelligence
 interests:
