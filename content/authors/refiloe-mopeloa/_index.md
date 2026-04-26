@@ -3,7 +3,7 @@ title: Refiloe Mopeloa
 
 surname: Mopeloa
 
-weight: 190
+weight: 187
 
 bio: "I am in a constant state of practice, and so are you. You can never fail when you're in a constant state of practice."
 
