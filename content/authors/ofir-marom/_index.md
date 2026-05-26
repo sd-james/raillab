@@ -2,7 +2,7 @@
 title: Ofir Marom
 surname: Marom
 weight: 35
-role:
+role: Independent Researcher
 bio: My PhD research focused on reducing learning complexity in Reinforcement Learning and Planning agents by leveraging prior knowledge and transferring knowledge from previous tasks.
 superuser: false
 interests:

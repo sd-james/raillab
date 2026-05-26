@@ -5,13 +5,11 @@ weight: 30
 role: Research Scientist and Manager & Visiting Researcher
 bio: My research interests include knowledge representation and reasoning, machine learning, robotics, and natural language processing.
 interests:
-  - Artificial Intelligence
   - Reinforcement Learning
   - Planning
-  - Knowledge Representation and Reasoning
   - Natural Language Processing
   - Robotics
-social:
+social`:
   - icon: envelope
     icon_pack: fas
     link: mailto:ndivhuwo.makondo@wits.ac.za
