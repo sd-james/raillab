@@ -15,9 +15,6 @@ social:
     link: mailto:rayhaanhanslod3@gmail.com
 
 
-
-
-
   - icon: github
     icon_pack: fab
     link: https://github.com/rayrsys
